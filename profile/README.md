@@ -8,11 +8,11 @@ Navigating inside large buildings is often difficult for people with disabilitie
 
 **Ayn-Path** is my Final Year Project (FYP), developed to bring these needs together in a single application. By combining artificial intelligence and augmented reality, the system offers accurate indoor localization, detects obstacles commonly found in buildings, and provides real-time guidance. Directions are delivered through clear audio cues, gentle haptic feedback, and AR-based visual arrows. For this project, the implementation is focused on **Block A, Level 1 of KICT IIUM**, serving as the test environment for indoor navigation. The goal of Ayn-Path is to give blind and visually impaired people more independence and confidence when moving through indoor environments, making navigation safer, smoother, and easier.
 
-## Repositories Details
+## Repositories
 
 * [aynpath-datasets](https://github.com/Ayn-Path/aynpath-datasets) - Training and testing datasets for obstacle detection and indoor feature recognition. Includes annotated images, extracted ORB features, with the code for extracting them.
 
-* aynpath-app (Main Application) - Flutter-based AR navigation app. Contains the full user interface and functional modules, integrating localization, obstacle detection, audio guidance, haptic feedback, and AR visual arrows.
+* [aynpath-app](https://github.com/Ayn-Path/aynpath-app) - Flutter-based AR navigation app. Contains the full user interface and functional modules, integrating localization, obstacle detection, audio guidance, haptic feedback, and AR visual arrows.
 
 * [aynpath-server](https://github.com/Ayn-Path/aynpath-server) - Backend service for indoor localization and navigation. Provides APIs for VPS matching of the user’s current location using ORB features and image-based positioning.
 
