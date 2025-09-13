@@ -10,7 +10,7 @@ Navigating inside large buildings is often difficult for people with disabilitie
 
 ## Repositories Details
 
-* aynpath-dataset - Training and testing datasets for obstacle detection and indoor feature recognition. Includes annotated images, extracted ORB features, and preprocessing scripts.
+* [aynpath-datasets](https://github.com/Ayn-Path/aynpath-datasets) - Training and testing datasets for obstacle detection and indoor feature recognition. Includes annotated images, extracted ORB features, with the code for extracting them.
 
 * aynpath-app (Main Application) - Flutter-based AR navigation app. Contains the full user interface and functional modules, integrating localization, obstacle detection, audio guidance, haptic feedback, and AR visual arrows.
 
