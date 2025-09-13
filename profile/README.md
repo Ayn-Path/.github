@@ -14,7 +14,7 @@ Navigating inside large buildings is often difficult for people with disabilitie
 
 * aynpath-app (Main Application) - Flutter-based AR navigation app. Contains the full user interface and functional modules, integrating localization, obstacle detection, audio guidance, haptic feedback, and AR visual arrows.
 
-* aynpath-orb-server - Backend service for indoor localization and navigation. Provides APIs for VPS matching of the user’s current location using ORB features and image-based positioning.
+* aynpath-server - Backend service for indoor localization and navigation. Provides APIs for VPS matching of the user’s current location using ORB features and image-based positioning.
 
 * aynpath-object-detection - Object detection module powered by MobileNetV1 (TensorFlow Lite). Includes a pretrained model based on the COCO dataset, optimized for detecting common indoor obstacles.
 
