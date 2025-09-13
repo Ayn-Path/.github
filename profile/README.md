@@ -16,7 +16,7 @@ Navigating inside large buildings is often difficult for people with disabilitie
 
 * [aynpath-server](https://github.com/Ayn-Path/aynpath-server) - Backend service for indoor localization and navigation. Provides APIs for VPS matching of the user’s current location using ORB features and image-based positioning.
 
-* aynpath-object-detection - Object detection module powered by MobileNetV1 (TensorFlow Lite). Includes a pretrained model based on the COCO dataset, optimized for detecting common indoor obstacles.
+* [aynpath-object-detection](https://github.com/Ayn-Path/aynpath-object-detection) - Object detection module powered by MobileNetV1 (TensorFlow Lite). Includes a pretrained model based on the COCO dataset, optimized for detecting common indoor obstacles.
 
 ## Tools Used
 * Flutter
