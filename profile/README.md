@@ -22,7 +22,8 @@ Navigating inside large buildings is often difficult for people with disabilitie
 * Receive Audio Guidance: Provides real-time auditory instructions during navigation to assist the user in following the correct path.
 * Get Obstacle Alerts: Notifies the user of any obstacles along the path to ensure safe and accurate navigation.
 
-2. Flowchart
+2. Flowchart Diagram
+
 The flowchart below illustrates the main processes in the Ayn-Path system, from scanning the environment to reaching the destination.
 <p align="center">
 <img width="339" height="711" alt="Indoor_Navigation_Flowchart" src="https://github.com/user-attachments/assets/7d71c200-1a5c-40d8-802c-ae1ce7b9f26d" />
