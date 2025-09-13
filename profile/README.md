@@ -8,6 +8,10 @@ Navigating inside large buildings is often difficult for people with disabilitie
 
 <img width="746" height="776" alt="AynPath_Prototype" src="https://github.com/user-attachments/assets/515efdb7-f636-4576-95d9-a29a3edc2573" />
 
+## Flowchart
+
+<img width="339" height="711" alt="Indoor_Navigation_Flowchart" src="https://github.com/user-attachments/assets/7d71c200-1a5c-40d8-802c-ae1ce7b9f26d" />
+
 ## Repositories
 
 * [aynpath-datasets](https://github.com/Ayn-Path/aynpath-datasets) - Training and testing datasets for obstacle detection and indoor feature recognition. Includes annotated images, extracted ORB features, with the code for extracting them.
