@@ -17,9 +17,13 @@ Navigating inside large buildings is often difficult for people with disabilitie
 </p>
 
 * **Scan Environment**: Initiates the system by performing ORB feature detection to recognize virtual markers or detect the user’s location within the indoor environment using a custom VPS.
+  
 * **Select Destination**: Allows the user to choose their intended destination within the predefined area of the KICT building.
+  
 * **AR-Based Navigation**: Represents the primary navigation process by displaying virtual arrows as directional guidance toward the selected destination.
+  
 * **Receive Audio Guidance**: Provides real-time auditory instructions during navigation to assist the user in following the correct path.
+  
 * **Get Obstacle Alerts**: Notifies the user of any obstacles along the path to ensure safe and accurate navigation.
 
 2. **Flowchart Diagram**
