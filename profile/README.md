@@ -11,18 +11,18 @@ Navigating inside large buildings is often difficult for people with disabilitie
 
 ## Diagram:
 
-1. Use Case Diagram
+1. **Use Case Diagram**
 <p align="center">
   <img width="339" height="711" alt="Indoor_Navigation_Flowchart" src="https://github.com/user-attachments/assets/290b5fcb-7330-483a-a4a8-8495d23016e6" />
 </p>
 
-* Scan Environment: Initiates the system by performing ORB feature detection to recognize virtual markers or detect the user’s location within the indoor environment using a custom VPS.
-* Select Destination: Allows the user to choose their intended destination within the predefined area of the KICT building.
-* AR-Based Navigation: Represents the primary navigation process by displaying virtual arrows as directional guidance toward the selected destination.
-* Receive Audio Guidance: Provides real-time auditory instructions during navigation to assist the user in following the correct path.
-* Get Obstacle Alerts: Notifies the user of any obstacles along the path to ensure safe and accurate navigation.
+* **Scan Environment**: Initiates the system by performing ORB feature detection to recognize virtual markers or detect the user’s location within the indoor environment using a custom VPS.
+* **Select Destination**: Allows the user to choose their intended destination within the predefined area of the KICT building.
+* **AR-Based Navigation**: Represents the primary navigation process by displaying virtual arrows as directional guidance toward the selected destination.
+* **Receive Audio Guidance**: Provides real-time auditory instructions during navigation to assist the user in following the correct path.
+* **Get Obstacle Alerts**: Notifies the user of any obstacles along the path to ensure safe and accurate navigation.
 
-2. Flowchart Diagram
+2. **Flowchart Diagram**
 
 The flowchart below illustrates the main processes in the Ayn-Path system, from scanning the environment to reaching the destination.
 <p align="center">
@@ -31,13 +31,12 @@ The flowchart below illustrates the main processes in the Ayn-Path system, from 
 
 ## Repositories
 
-* [aynpath-datasets](https://github.com/Ayn-Path/aynpath-datasets) - Training and testing datasets for obstacle detection and indoor feature recognition. Includes annotated images, extracted ORB features, with the code for extracting them.
-
-* [aynpath-app](https://github.com/Ayn-Path/aynpath-app) - Flutter-based AR navigation app. Contains the full user interface and functional modules, integrating localization, obstacle detection, audio guidance, haptic feedback, and AR visual arrows.
-
-* [aynpath-server](https://github.com/Ayn-Path/aynpath-server) - Backend service for indoor localization and navigation. Provides APIs for VPS matching of the user’s current location using ORB features and image-based positioning.
-
-* [aynpath-object_detection](https://github.com/Ayn-Path/aynpath-object-detection) - Object detection module powered by MobileNetV1 (TensorFlow Lite). Includes a pretrained model based on the COCO dataset, optimized for detecting common indoor obstacles.
+| Repository | Description |
+|------------|-------------|
+|[aynpath-datasets](https://github.com/Ayn-Path/aynpath-datasets) | Training and testing datasets for obstacle detection and indoor feature recognition. Includes annotated images, extracted ORB features, with the code for extracting them.|
+|[aynpath-app](https://github.com/Ayn-Path/aynpath-app)| Flutter-based AR navigation app. Contains the full user interface and functional modules, integrating localization, obstacle detection, audio guidance, haptic feedback, and AR visual arrows.|
+|[aynpath-server](https://github.com/Ayn-Path/aynpath-server)|Backend service for indoor localization and navigation. Provides APIs for VPS matching of the user’s current location using ORB features and image-based positioning.|
+|[aynpath-object_detection](https://github.com/Ayn-Path/aynpath-object-detection)| Object detection module powered by MobileNetV1 (TensorFlow Lite). Includes a pretrained model based on the COCO dataset, optimized for detecting common indoor obstacles.|
 
 ## Tools Used
 * Flutter
