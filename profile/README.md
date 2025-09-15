@@ -1,8 +1,8 @@
-## Overview
-
 <p align ="center">
 <img width="400" alt="AynPath" src="https://github.com/user-attachments/assets/b7844e69-fa04-40df-aa6a-7ca3756b21f4" />
 </p>
+
+## Overview
 
 Navigating inside large buildings is often difficult for people with disabilities, especially those who are blind or have low vision. Most navigation tools today are designed for outdoor use and depend on GPS, which is unreliable indoors because of weak satellite signals. This makes it challenging to move through complex spaces such as campuses, shopping malls, or office buildings. Existing assistive apps usually focus on one specific feature, like detecting objects, reading text aloud, or guiding someone across a street. To get the full navigation experience, users often have to switch between several different apps, which can be inconvenient and overwhelming.
 
