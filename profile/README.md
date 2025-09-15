@@ -1,8 +1,6 @@
-# Ayn-Path: AI-Driven Smart Indoor Navigation System with AR for the Visually Impaired
-
 ## Overview
 <p align="center">
-<img width="746" height="776" alt="AynPath_Prototype" src="https://github.com/user-attachments/assets/515efdb7-f636-4576-95d9-a29a3edc2573" />
+<img width="1685" height="843" alt="AynPath" src="https://github.com/user-attachments/assets/b7844e69-fa04-40df-aa6a-7ca3756b21f4" />
 </p>
 
 Navigating inside large buildings is often difficult for people with disabilities, especially those who are blind or have low vision. Most navigation tools today are designed for outdoor use and depend on GPS, which is unreliable indoors because of weak satellite signals. This makes it challenging to move through complex spaces such as campuses, shopping malls, or office buildings. Existing assistive apps usually focus on one specific feature, like detecting objects, reading text aloud, or guiding someone across a street. To get the full navigation experience, users often have to switch between several different apps, which can be inconvenient and overwhelming.
