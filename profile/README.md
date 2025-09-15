@@ -1,3 +1,4 @@
+# AynPath: AI-Driven Smart Indoor Navigation System with AR for the Visually Impaired
 <p align ="center">
 <img width="400" alt="AynPath" src="https://github.com/user-attachments/assets/b7844e69-fa04-40df-aa6a-7ca3756b21f4" />
 </p>
