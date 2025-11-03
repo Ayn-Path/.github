@@ -39,6 +39,7 @@ The flowchart below illustrates the main processes in the Ayn-Path system, from 
 |------------|-------------|
 |[aynpath-datasets](https://github.com/Ayn-Path/aynpath-datasets) | Training and testing datasets for obstacle detection and indoor feature recognition. Includes annotated images, extracted ORB features, with the code for extracting them.|
 |[aynpath-app](https://github.com/Ayn-Path/aynpath-app)| Flutter-based AR navigation app. Contains the full user interface and functional modules, integrating localization, obstacle detection, audio guidance, haptic feedback, and AR visual arrows.|
+|aynpath-server||
 |[aynpath-object_detection](https://github.com/Ayn-Path/aynpath-object-detection)| Object detection module powered by MobileNetV1 (TensorFlow Lite). Includes a pretrained model based on the COCO dataset, optimized for detecting common indoor obstacles.|
 
 ## Tools Used
