@@ -28,6 +28,7 @@ The IEEE-format report for this project is available via [Google Drive](https://
 * **Get Obstacle Alerts**: Notifies the user of any obstacles along the path to ensure safe and accurate navigation.
 
 2. **Activity Diagram**
+
 The Activity Diagram below illustrates the main processes in the Ayn-Path system, from scanning the environment to reaching the destination.
 <p align="center">
   <img width="339" height="711" alt="Activity_Diagram" src="https://github.com/user-attachments/assets/82553bfe-d313-4ace-8789-91993a1c0601" />
