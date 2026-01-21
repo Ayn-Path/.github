@@ -8,7 +8,7 @@ Navigating inside large buildings is often difficult for people with disabilitie
 
 **AynPath** is my Final Year Project (FYP), developed to bring these needs together in a single application. By combining artificial intelligence and augmented reality, the system offers accurate indoor localization, detects obstacles commonly found in buildings, and provides real-time guidance. Directions are delivered through clear audio cues, gentle haptic feedback, and AR-based visual arrows. For this project, the implementation is focused on **Block A, Level 1 of KICT IIUM**, serving as the test environment for indoor navigation. The goal of AynPath is to give blind and visually impaired people more independence and confidence when moving through indoor environments, making navigation safer, smoother, and easier.
 
-The accompanying IEEE-format report is available via [Google Drive](https://drive.google.com/file/d/1Rg4Za9exdh8-8ewbtjWoO0OOQ_N-IWS8/view?usp=sharing).
+The IEEE-format report for this project is available via [Google Drive](https://drive.google.com/file/d/1Rg4Za9exdh8-8ewbtjWoO0OOQ_N-IWS8/view?usp=sharing).
 
 ## Diagram:
 
