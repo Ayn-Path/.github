@@ -1,4 +1,3 @@
-# AynPath: AI-Driven Smart Indoor Navigation System with AR for the Visually Impaired
 <p align ="center">
 <img width="400" alt="AynPath" src="https://github.com/user-attachments/assets/b7844e69-fa04-40df-aa6a-7ca3756b21f4" />
 </p>
@@ -13,7 +12,7 @@ Navigating inside large buildings is often difficult for people with disabilitie
 
 1. **Use Case Diagram**
 <p align="center">
-  <img width="339" height="711" alt="Indoor_Navigation_Flowchart" src="https://github.com/user-attachments/assets/290b5fcb-7330-483a-a4a8-8495d23016e6" />
+  <img width="339" height="711" alt="Use_Case_Diagram" src="https://github.com/user-attachments/assets/290b5fcb-7330-483a-a4a8-8495d23016e6" />
 </p>
 
 * **Scan Environment**: Initiates the system by performing ORB feature detection to recognize virtual markers or detect the user’s location within the indoor environment using a custom VPS.
@@ -28,19 +27,20 @@ Navigating inside large buildings is often difficult for people with disabilitie
 
 2. **Flowchart Diagram**
 
-The flowchart below illustrates the main processes in the Ayn-Path system, from scanning the environment to reaching the destination.
+The Activity Diagram below illustrates the main processes in the Ayn-Path system, from scanning the environment to reaching the destination.
 <p align="center">
-<img width="339" height="711" alt="Indoor_Navigation_Flowchart" src="https://github.com/user-attachments/assets/7d71c200-1a5c-40d8-802c-ae1ce7b9f26d" />
+  <img width="339" height="711" alt="Activity_Diagram" src="https://github.com/user-attachments/assets/82553bfe-d313-4ace-8789-91993a1c0601" />
 </p>
 
 ## Repositories
 
 | Repository | Description |
 |------------|-------------|
-|[aynpath-datasets](https://github.com/Ayn-Path/aynpath-datasets) | Training and testing datasets for obstacle detection and indoor feature recognition. Includes annotated images, extracted ORB features, with the code for extracting them.|
-|[aynpath-app](https://github.com/Ayn-Path/aynpath-app)| Flutter-based AR navigation app. Contains the full user interface and functional modules, integrating localization, obstacle detection, audio guidance, haptic feedback, and AR visual arrows.|
-|aynpath-server||
-|[aynpath-object_detection](https://github.com/Ayn-Path/aynpath-object-detection)| Object detection module powered by MobileNetV1 (TensorFlow Lite). Includes a pretrained model based on the COCO dataset, optimized for detecting common indoor obstacles.|
+|[aynpath-app](https://github.com/Ayn-Path/aynpath-app)| It contains the full user interface and functional modules, integrating localization, obstacle detection, audio guidance, haptic feedback, and AR visual arrows.|
+|[aynpath-unity](https://github.com/Ayn-Path/aynpath-unity)|Unity is used to render AR navigation by displaying waypoints and paths in the real world and is integrated with Flutter rather than acting as a standalone app.|
+|[aynpath-object_detection](https://github.com/Ayn-Path/aynpath-object-detection)| Object detection module powered by MobileNetV2 (TensorFlow Lite). Includes a pretrained model based on the COCO dataset, optimized for detecting common indoor obstacles.|
+|[aynpath-datasets](https://github.com/Ayn-Path/aynpath-datasets) | Training and testing datasets for obstacle detection and indoor feature recognition. Includes annotated images, extracted ORB features, and the code for extracting them.|
+|[aynpath-server](https://github.com/Ayn-Path/aynpath-server/tree/main)| It contains the ORB (Oriented FAST and Rotated BRIEF) feature processing server.|
 
 ## Tools Used
 * Flutter
